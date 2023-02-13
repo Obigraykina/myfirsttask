@@ -35,3 +35,19 @@ while num_1 < p:
         break
     num_1 += 1
 
+# Требуется вывести все целые степени двойки (т.е. числа вида 2k), 
+# не превосходящие числа N.
+
+n=int(input())
+num=1
+while num <=n:
+     print(num, md ="")
+     num *=2
+
+### Вспомнить
+
+num = []
+
+for i in range(0, 26, 2):
+    num.append(i)
+    print(num)
